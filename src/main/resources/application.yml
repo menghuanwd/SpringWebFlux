@@ -1,0 +1,11 @@
+server:
+  port: 5002
+spring:
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+  r2dbc:
+    url: r2dbcs:mysql://localhost:3367/springwebflux?useUnicode=true&characterEncoding=UTF-8&useSSL=false&sslMode=DISABLED
+    username: root
+    password:
